@@ -1,0 +1,68 @@
+.donation-page {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    height: 100%;
+    background: linear-gradient(to left, rgba(236, 240, 241,1.0), rgba(0, 0, 0, 0.6)), url("https://www.gannett-cdn.com/-mm-/3b8b0abcb585d9841e5193c3d072eed1e5ce62bc/c=0-30-580-356/local/-/media/2017/10/05/USATODAY/usatsports/glass-jar-full-of-cois-with-donate-written-on-it-charity-donation-philanthropy_large.jpg?width=580&height=326&fit=crop&format=pjpg&auto=webp");
+    background-size: cover;
+}
+
+form {
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    opacity: 1;
+    width: 100%;
+    color: rgb(142, 68, 173);
+    text-align: center;
+}
+
+.discription {
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+.form {
+    opacity: 1;
+    height: 80vh;
+    width: 50%;
+    background-color:rgb(149, 165, 166, 0.4); 
+    box-shadow: 0 2rem 5rem 0 rgba(252, 162, 17, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 10;
+}
+
+.form>* {
+    width: 80%;
+}
+
+input {
+    height: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+span {
+    color: rgb(142, 68, 173);
+}
